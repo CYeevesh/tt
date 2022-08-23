@@ -1,0 +1,185 @@
+.left {
+  padding: 20px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.centered {
+  padding: 20px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.right {
+  padding: 20px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.video {
+  width: 40%;
+  height: 350px;
+}
+
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width: 800px) {
+
+  .left,
+  .right {
+    width: 100%;
+    /* The width is 100%, when the viewport is 600px or smaller */
+  }
+
+  .video {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+.pic-slides {
+  display: none;
+  width: 100%
+}
+
+.bttn {
+  border: 1px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px 20px 0px 0px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 300px) {
+  .bttn {
+    padding: 5px 15px;
+    margin-top: 20px;
+  }
+}
+
+.price {
+  margin: 30px 0px;
+}
+
+
+
+.txt {
+  margin-top: 5%;
+  font-size: 30px;
+  font-family: Verdana, Arial;
+  text-transform: uppercase;
+}
+
+.tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  .tbl {
+    margin-left: 5px;
+  }
+}
+
+.tbl td,
+.tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tbl tr:hover {
+  background-color: #ddd;
+}
+
+.tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.price-tbl {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 40px 20px;
+}
+
+.price-tbl td,
+.price-tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.price-tbl tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.price-tbl tr:hover {
+  background-color: #ddd;
+}
+
+.price-tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.selection-list {
+  margin: 10px 20px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.form-div {
+  margin: 0px 0px 30px 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.top-btn {
+  padding: 5px 20px;
+  border: 1px solid lightgrey;
+  background-color: #f2f2f2;
+  margin: 5px 20px 10px 0px;
+  float: right;
+  border-radius: 10px;
+}
+
+.top-btn:hover {
+  background-color: lightblue;
+}

@@ -1,0 +1,48 @@
+.navbar {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+.CompanyName {
+    text-align: center;
+    font-size: 200%;
+    opacity=1.0;
+    filter: alpha(opacity=50);
+    /* for IE8 and earlier*/
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+    border-radius: 50%;
+}
+
+.logo :hover {
+    transform: scale(1.1);
+}
+
+.CompanyMoto {
+    text-align: center;
+    font-size: 90%;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
